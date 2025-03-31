@@ -133,6 +133,23 @@ footer {
     bottom: 0;
 }
 
+/* Add this to your styles.css file */
+.social-media {
+    margin-top: 20px;
+}
+
+.social-media a {
+    margin: 0 10px;
+    font-size: 24px;
+    color: #333; /* Adjust color to match your theme */
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.social-media a:hover {
+    color: #007bff; /* Change to your preferred hover color */
+}
+
 /* Animation Keyframes */
 @keyframes fadeInDown {
     0% { opacity: 0; transform: translateY(-20px); }
